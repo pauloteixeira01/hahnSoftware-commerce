@@ -1,4 +1,4 @@
-# PapaSand's Restaurant <img src="./public/logo-ps.png" alt="website" width="50px">
+# PapaSand's Restaurant <img src="./public/logo-ps.png" alt="PapaSand´s" width="50px">
 
 <br>
 
@@ -14,24 +14,11 @@ or here 👉 https://papasand-s.web.app
 
 ### Built With
 
-- [Vite.js](https://vitejs.dev)
-- [Vue.js](https://vuejs.org/)
-- [Typescript](https://www.typescriptlang.org)
-- [SASS](https://sass-lang.com)
-- [Firebase](firebase.google.com/)
-- [Bootstrap](https://getbootstrap.com)
-
-<br>
-
-## 💻 Prerequisites
-
-<br>
-
-npm
-
-```sh
-npm install npm@latest -g
-```
+- Vue.js
+- Typescript
+- SASS
+- Firebase
+- Bootstrap
 
 <br>
 
@@ -45,10 +32,10 @@ Clone the repo
 git clone https://github.com/RomuloOliveira94/papasands-restaurant-webapp.git
 ```
 
-Install NPM packages
+Download dependencies:
 
 ```sh
-npm install
+yarn
 ```
 
 <br>
@@ -60,19 +47,19 @@ npm install
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+yarn run dev
 ```
 
 ### Type-Check, Compile and Minify for Production
 
 ```sh
-npm run build
+yarn run build
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
-npm run lint
+yarn run lint
 ```
 
 <br>
