@@ -1,10 +1,10 @@
 <template>
   <main id="home">
     <div class="hero">
-      <video src="/hero.mp4" class="hero_video" muted loop autoplay></video>
+      <video src="/video.mp4" class="hero_video" muted loop autoplay></video>
       <div class="hero_text">
-        <h1>Are you hungry?</h1>
-        <p>Take a fast food!</p>
+        <h1>High tech</h1>
+        <p>Transforming the world to a better place</p>
         <button @click="router.push('/burgers')">Let's GO!</button>
       </div>
     </div>

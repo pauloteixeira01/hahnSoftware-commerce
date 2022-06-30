@@ -1,6 +1,6 @@
 <template>
   <footer class="containerFooter">
-    <h3>PapaSand's</h3>
+    <h3>Hahn Software</h3>
     <p>Developed by</p>
     <div class="developedBy">
       Paulo Teixeira

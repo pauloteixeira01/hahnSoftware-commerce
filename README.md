@@ -1,4 +1,4 @@
-# PapaSand's Restaurant <img src="./public/logo-ps.png" alt="PapaSand´s" width="50px">
+# Hahn Software Restaurant <img src="https://www.hahnsoftware.com/resources/HahnSftwr_RGB_logo_horz.png" alt="PapaSand´s" width="50px">
 
 <br>
 

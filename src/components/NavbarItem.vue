@@ -1,7 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-white nav_container">
     <div class="container-fluid navs-container">
-      <img @click="router.push('/')" src="/logo-ps.png" alt="" width="120" />
       <button
         class="navbar-toggler"
         type="button"
@@ -13,6 +12,12 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+      <img
+        @click="router.push('/')"
+        src="https://www.hahnsoftware.com/resources/HahnSftwr_RGB_logo_horz.png"
+        alt="Hahn Software"
+        width="120"
+      />
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -20,18 +25,19 @@
           </li>
           <li class="nav-item">
             <RouterLink to="/burgers" class="nav-link active"
-              >Burgers</RouterLink
+              >Hardware</RouterLink
             >
           </li>
           <li class="nav-item">
             <RouterLink to="/sandwiches" class="nav-link active"
-              >Sandwiches</RouterLink
+              >Software</RouterLink
             >
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <RouterLink to="/drinks" class="nav-link active">Drinks</RouterLink>
-          </li>
+          </li> -->
         </ul>
+
         <div class="links_container">
           <div v-if="user" class="links">
             <div class="icons_container">
