@@ -2,8 +2,7 @@
 
 <br>
 
-<img src="./src/assets/readme/papa01.png" alt="website">
-
+<img src="./src/assets/img/papa01.png" alt="website">
 
 > This project is a full stack and totally responsive webapp, for the restaurant papasand's. In this app we can create a user and login, see the cart, choose the food that we want, put the information for the order and do the order. If we want we can cancel the order or change the address or payment form.
 
@@ -15,12 +14,12 @@ or here 👉 https://papasand-s.web.app
 
 ### Built With
 
-* [Vite.js](https://vitejs.dev)
-* [Vue.js](https://vuejs.org/)
-* [Typescript](https://www.typescriptlang.org)
-* [SASS](https://sass-lang.com)
-* [Firebase](firebase.google.com/)
-* [Bootstrap](https://getbootstrap.com)
+- [Vite.js](https://vitejs.dev)
+- [Vue.js](https://vuejs.org/)
+- [Typescript](https://www.typescriptlang.org)
+- [SASS](https://sass-lang.com)
+- [Firebase](firebase.google.com/)
+- [Bootstrap](https://getbootstrap.com)
 
 <br>
 
@@ -29,26 +28,30 @@ or here 👉 https://papasand-s.web.app
 <br>
 
 npm
-  ```sh
-  npm install npm@latest -g
-  ```
+
+```sh
+npm install npm@latest -g
+```
+
 <br>
 
-## 🚀 Installing  <PapaSand's>
+## 🚀 Installing <PapaSand's>
 
 <br>
 
 Clone the repo
-   ```sh
-   git clone https://github.com/RomuloOliveira94/papasands-restaurant-webapp.git
-   ```
+
+```sh
+git clone https://github.com/RomuloOliveira94/papasands-restaurant-webapp.git
+```
 
 Install NPM packages
-   ```sh
-   npm install
-   ```
-<br>
 
+```sh
+npm install
+```
+
+<br>
 
 ## ☕ Using <PapaSand's>
 
@@ -56,13 +59,11 @@ Install NPM packages
 
 ### Compile and Hot-Reload for Development
 
-
 ```sh
 npm run dev
 ```
 
 ### Type-Check, Compile and Minify for Production
-
 
 ```sh
 npm run build
@@ -73,8 +74,8 @@ npm run build
 ```sh
 npm run lint
 ```
-<br>
 
+<br>
 
 ## 📝 License
 

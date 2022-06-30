@@ -82,7 +82,7 @@ const handleLogout = () => {
 @import "../assets/base.scss";
 .nav_container {
   border-bottom: 2px solid rgba(0, 0, 0, 0.125);
-  height: 10vh;
+  height: 15vh;
   z-index: 4;
   background-color: white;
   position: relative;
