@@ -2,7 +2,7 @@ export interface Order {
   id: string;
   total: number;
   userUid: string;
-  address: string;
+  address?: string;
   payment: string;
   order: [
     {

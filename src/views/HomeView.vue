@@ -5,7 +5,7 @@
       <div class="hero_text">
         <h1>High tech</h1>
         <p>Transforming the world to a better place</p>
-        <button @click="router.push('/burgers')">Let's GO!</button>
+        <button @click="router.push('/hardware')">Let's GO!</button>
       </div>
     </div>
   </main>

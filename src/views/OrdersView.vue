@@ -1,7 +1,7 @@
 <template>
   <h1>Orders</h1>
   <h2 v-if="!orders">Loading...</h2>
-  <h2 v-if="!orders?.length">No orders... Yet =D</h2>
+  <h2 v-if="!orders?.length">No orders...</h2>
   <div
     v-for="order in (orders as Order[])"
     :key="order.id"
@@ -114,8 +114,9 @@ const handleUpdatePayment = (order: Order) => {
   flex-direction: column;
   list-style: none;
   margin: 25px auto;
+  border-radius: 20px;
   max-width: 960px;
-  border: 4px dotted $secondary-color;
+  border: 2px solid $primary-color;
   padding: 20px;
   h2 {
     border-bottom: 1px solid $secondary-color;
@@ -133,7 +134,7 @@ const handleUpdatePayment = (order: Order) => {
       max-width: 100%;
       width: 80px;
       border-radius: 10px;
-      border: 3px solid $secondary-color;
+      border: 3px solid $primary-color;
     }
   }
   .itens_container {

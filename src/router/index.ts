@@ -1,8 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import BurgersView from "../views/BurgersView.vue";
-import SandwichesView from "../views/SandwichesView.vue";
-// import DrinksView from "../views/DrinksView.vue";
+import HardwareView from "../views/HardwareView.vue";
+import SoftwareView from "../views/SoftwareView.vue";
 import CartView from "../views/CartView.vue";
 import OrdersView from "@/views/OrdersView.vue";
 import RegisterView from "@/views/RegisterView.vue";
@@ -22,12 +21,12 @@ const router = createRouter({
     {
       path: "/hardware",
       name: "hardware",
-      component: BurgersView,
+      component: HardwareView,
     },
     {
       path: "/software",
       name: "software",
-      component: SandwichesView,
+      component: SoftwareView,
     },
     {
       path: "/cart",

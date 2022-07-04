@@ -1,8 +1,8 @@
 <template>
   <main>
-    <FoodCards
-      :data="drinks"
-      title="Drinks's"
+    <ProductCards
+      :data="software"
+      title="Software"
       :error="error"
       @show-modal="toggleModal"
       @add-to-cart="handleAddToCart"
@@ -22,16 +22,16 @@
 import type { Product } from "@/types/Product";
 import { addData } from "@/composables/addData";
 import { ref } from "vue";
-import FoodCards from "@/components/FoodCards.vue";
+import ProductCards from "@/components/ProductCards.vue";
 import Modal from "@/components/ModalDescriptions.vue";
 import getUser from "@/composables/getUser";
 import getCollection from "@/composables/getCollections";
 import { useRouter } from "vue-router";
 
 const router = useRouter();
+const { addToCart, error } = addData();
 const modalDescription = ref({});
 const showModal = ref(false);
-const { addToCart, error } = addData();
 const { user } = getUser();
 
 const handleAddToCart = (item: Product) => {
@@ -39,7 +39,7 @@ const handleAddToCart = (item: Product) => {
   router.push({ name: "cart" });
 };
 
-const { documents: drinks } = getCollection("drinks");
+const { documents: software } = getCollection("software");
 
 const toggleModal = (id: number) => {
   modalDescription.value = id;

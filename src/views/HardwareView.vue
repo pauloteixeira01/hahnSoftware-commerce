@@ -1,6 +1,6 @@
 <template>
   <main>
-    <FoodCards
+    <ProductCards
       :data="hardware"
       title="Hardware"
       :error="error"
@@ -21,7 +21,7 @@
 <script setup lang="ts">
 import type { Product } from "@/types/Product";
 import { ref } from "vue";
-import FoodCards from "@/components/FoodCards.vue";
+import ProductCards from "@/components/ProductCards.vue";
 import Modal from "@/components/ModalDescriptions.vue";
 import { addData } from "@/composables/addData";
 import getUser from "@/composables/getUser";

@@ -1,6 +1,6 @@
 <template>
   <main class="container">
-    <h1>Hey! Welcome back, what do you want today?</h1>
+    <h1>Welcome to Hahn Software</h1>
     <form @submit.prevent="handleSubmit">
       <h2>Login</h2>
       <label for="email">E-mail:</label>

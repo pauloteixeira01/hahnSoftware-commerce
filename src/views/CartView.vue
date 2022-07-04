@@ -16,6 +16,7 @@
       <form class="cart_form">
         <label for="title">Address</label>
         <input type="text" name="address" v-model="address" required />
+
         <label for="author">Payment form</label>
         <select name="payment" v-model="payment" required>
           <option value="Credit Card">Credit Card</option>
