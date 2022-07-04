@@ -1,12 +1,24 @@
 <template>
   <main class="container">
-    <h1>Hey! Welcome back, what we gonna eat today?</h1>
+    <h1>Hey! Welcome back, what do you want today?</h1>
     <form @submit.prevent="handleSubmit">
       <h2>Login</h2>
-      <label for="email">Email:</label>
-      <input type="email" name="email" v-model="email" required />
+      <label for="email">E-mail:</label>
+      <input
+        type="email"
+        name="email"
+        placeholder="Type your e-mail"
+        v-model="email"
+        required
+      />
       <label for="password">Password:</label>
-      <input type="password" name="password" v-model="password" required />
+      <input
+        type="password"
+        name="password"
+        placeholder="Typing your password"
+        v-model="password"
+        required
+      />
       <button>Enter</button>
       <div v-if="error" class="error">{{ error }}</div>
     </form>

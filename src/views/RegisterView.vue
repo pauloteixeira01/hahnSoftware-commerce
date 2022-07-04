@@ -1,12 +1,23 @@
 <template>
   <main class="container">
-    <h1>Welcome to PapaSand's the best Fast Food!</h1>
     <form @submit.prevent="handleSubmit">
-      <h2>Sign up</h2>
-      <label for="email">Email:</label>
-      <input type="email" name="email" v-model="email" required />
+      <h2>Create user</h2>
+      <label for="email">E-mail:</label>
+      <input
+        type="email"
+        name="email"
+        placeholder="Typing your the best e-mail"
+        v-model="email"
+        required
+      />
       <label for="password">Password:</label>
-      <input type="password" name="password" v-model="password" required />
+      <input
+        type="password"
+        name="password"
+        placeholder="Choose your password"
+        v-model="password"
+        required
+      />
       <button>Sign up</button>
       <p v-if="error" class="error">{{ error }}</p>
     </form>

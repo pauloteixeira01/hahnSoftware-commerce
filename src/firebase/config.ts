@@ -3,12 +3,12 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDxGA08NDJn2bz_mu3cqjZmwFtQJZgIQjE",
-  authDomain: "papasand-s.firebaseapp.com",
-  projectId: "papasand-s",
-  storageBucket: "papasand-s.appspot.com",
-  messagingSenderId: "773969562362",
-  appId: "1:773969562362:web:0547ee747a7b42a5465743",
+  apiKey: "AIzaSyAJrQWy6mUXKP_VX4aqe8t_md92g3HEOfo",
+  authDomain: "hahnsoftware-project.firebaseapp.com",
+  projectId: "hahnsoftware-project",
+  storageBucket: "hahnsoftware-project.appspot.com",
+  messagingSenderId: "285079860755",
+  appId: "1:285079860755:web:4907501e0c53ce70c131e6",
 };
 
 initializeApp(firebaseConfig);

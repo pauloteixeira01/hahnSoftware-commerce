@@ -24,18 +24,15 @@
             <RouterLink to="/" class="nav-link active">Home</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink to="/burgers" class="nav-link active"
+            <RouterLink to="/hardware" class="nav-link active"
               >Hardware</RouterLink
             >
           </li>
           <li class="nav-item">
-            <RouterLink to="/sandwiches" class="nav-link active"
+            <RouterLink to="/software" class="nav-link active"
               >Software</RouterLink
             >
           </li>
-          <!-- <li class="nav-item">
-            <RouterLink to="/drinks" class="nav-link active">Drinks</RouterLink>
-          </li> -->
         </ul>
 
         <div class="links_container">

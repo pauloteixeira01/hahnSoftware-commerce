@@ -1,8 +1,8 @@
 <template>
   <main>
     <FoodCards
-      :data="burgers"
-      title="Burger's"
+      :data="hardware"
+      title="Hardware"
       :error="error"
       @show-modal="toggleModal"
       @add-to-cart="handleAddToCart"
@@ -39,7 +39,7 @@ const handleAddToCart = (item: Product) => {
   router.push({ name: "cart" });
 };
 
-const { documents: burgers } = getCollection("burgers");
+const { documents: hardware } = getCollection("hardware");
 
 const toggleModal = (id: number) => {
   modalDescription.value = id;

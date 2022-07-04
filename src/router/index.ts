@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import BurgersView from "../views/BurgersView.vue";
 import SandwichesView from "../views/SandwichesView.vue";
-import DrinksView from "../views/DrinksView.vue";
+// import DrinksView from "../views/DrinksView.vue";
 import CartView from "../views/CartView.vue";
 import OrdersView from "@/views/OrdersView.vue";
 import RegisterView from "@/views/RegisterView.vue";
@@ -20,19 +20,14 @@ const router = createRouter({
       component: HomeView,
     },
     {
-      path: "/burgers",
-      name: "burgers",
+      path: "/hardware",
+      name: "hardware",
       component: BurgersView,
     },
     {
-      path: "/sandwiches",
-      name: "sandwiches",
+      path: "/software",
+      name: "software",
       component: SandwichesView,
-    },
-    {
-      path: "/drinks",
-      name: "drinks",
-      component: DrinksView,
     },
     {
       path: "/cart",

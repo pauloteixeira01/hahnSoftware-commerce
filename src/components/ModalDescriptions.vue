@@ -23,10 +23,11 @@ defineProps<{
 @import "../assets/base.scss";
 .modal {
   width: 90vw;
-  height: 60vh;
+  height: 90vh;
   padding: 20px;
   background: white;
   border-radius: 10px;
+  border: 2px solid $primary-color;
   color: black;
   position: relative;
   display: flex;
@@ -38,7 +39,7 @@ defineProps<{
   img {
     max-width: 100%;
     width: 350px;
-    border: 2px solid red;
+    border: 2px solid $primary-color;
     border-radius: 10px;
   }
 
