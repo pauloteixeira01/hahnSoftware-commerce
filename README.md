@@ -52,7 +52,7 @@ yarn
 
 <br>
 
-## ☕ Using <PapaSand's>
+## ☕ Use
 
 <br>
 
