@@ -1,12 +1,24 @@
 # Hahn Software <img src="https://www.hahnsoftware.com/resources/HahnSftwr_RGB_logo_horz.png" alt="PapaSand´s" width="50px">
 
+This project is a full stack and totally responsive webapp, for the Hahn Software. In this app we can create a user and login, see the cart, choose the products that we want, put the information for the order and do the order. If we want we can cancel the order or change the address or payment form.
+
+### App screens.
+
+<img src="./src/assets/img/create-user-screen.png" alt="create-user-screen">
 <br>
-
-<img src="./src/assets/img/home.png" alt="website">
-
-> This project is a full stack and totally responsive webapp, for the Hahn Software. In this app we can create a user and login, see the cart, choose the products that we want, put the information for the order and do the order. If we want we can cancel the order or change the address or payment form.
-
+<img src="./src/assets/img/login.png" alt="login">
 <br>
+<img src="./src/assets/img/home.png" alt="home">
+<br>
+<img src="./src/assets/img/hardware-screen.png" alt="hardware-screen">
+<br>
+<img src="./src/assets/img/details-product-screen.png" alt="details-product-screen">
+<br>
+<img src="./src/assets/img/bag-screen.png" alt="bag-screen">
+<br>
+<img src="./src/assets/img/orders-screen.png" alt="orders-screen">
+<br>
+<img src="./src/assets/img/software-screen.png" alt="software-screen">
 
 ### 👉 [You can acess here!](https://papasand-s.web.app)
 
