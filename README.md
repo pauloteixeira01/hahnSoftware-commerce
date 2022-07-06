@@ -1,5 +1,5 @@
-# Hahn Software <img src="https://www.hahnsoftware.com/resources/HahnSftwr_RGB_logo_horz.png" alt="PapaSand´s" width="50px">
-
+<img src="https://www.hahnsoftware.com/resources/HahnSftwr_RGB_logo_horz.png" alt="hahn software" width="200px">
+<br><br>
 This project is a full stack and totally responsive webapp, for the Hahn Software. In this app we can create a user and login, see the cart, choose the products that we want, put the information for the order and do the order. If we want we can cancel the order or change the address or payment form.
 
 ### App screens.
@@ -20,9 +20,9 @@ This project is a full stack and totally responsive webapp, for the Hahn Softwar
 <br>
 <img src="./src/assets/img/software-screen.png" alt="software-screen">
 
-### 👉 [You can acess here!](https://papasand-s.web.app)
+### 👉 [You can acess here!](https://hahnsoftware-project.web.app)
 
-or here 👉 https://papasand-s.web.app
+or here 👉 hahnsoftware-project.web.app
 
 ### Built With
 
