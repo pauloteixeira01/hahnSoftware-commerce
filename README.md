@@ -1,4 +1,6 @@
-<img src="https://www.hahnsoftware.com/resources/HahnSftwr_RGB_logo_horz.png" alt="hahn software" width="200px">
+<center>
+<img src="https://www.hahnsoftware.com/resources/HahnSftwr_RGB_logo_horz.png" alt="hahn software" width="200px" />
+</center>
 <br>
 This project is a full stack and totally responsive webapp, for the Hahn Software. In this app we can create a user and login, see the cart, choose the products that we want, put the information for the order and do the order. If we want we can cancel the order or change the address or payment form.
 
