@@ -20,7 +20,7 @@ This project is a full stack and totally responsive webapp, for the Hahn Softwar
 <br>
 <img src="./src/assets/img/software-screen.png" alt="software-screen">
 
-### 👉 [You can acess here!](https://hahnsoftware-project.web.app)
+### 👉 [You can access here!](https://hahnsoftware-project.web.app)
 
 or here 👉 hahnsoftware-project.web.app
 
